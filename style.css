@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: white;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    background-color: #02082c;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+}
+
+.header ul li{
+    margin: 0 10px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.hero{
+    padding-top: 30px;
+    background-color: #aedcf3;
+}
+
+.hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenlys;
+}
+
+.hero-desc{
+    width: 40%;
+}
+
+.hero-desc >*{
+    color: #02082c;
+}
+
+.hero-desc h1{
+    font-size: 35px;
+}
+
+.hero-desc p{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.hero-desc a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #02082c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.how-it-works{
+    background-color: burlywood;
+    padding-bottom: 50px;
+}
+
+.how-it-works .container{
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.how-it-works a{
+    text-decoration: none;
+    color:white;
+    background-color: #02082c;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px 0;
+}
+
+.card{
+    background-color: #313756;
+    color: white;
+    padding: 40px 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card h2{
+    color: white;
+}
+
+.card i{
+    font-size: 45px;
+    text-align: center;
+}
+
+.card >*{
+    margin: 5px 0;
+}
+
+.main-spacing{
+    padding: 50px 0;
+}
+
+.why-us{
+    background-color:black;
+    padding-bottom: 50px;
+}
+
+.why-us h1{
+    text-align: center;
+    color: white;
+}
+
+.why-us p{
+    text-align: center;
+    color: white;
+}
+
+.row-spacing{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.contact{
+    color: white;
+    background-color: #036596;
+}
+
+.contact h1{
+    color: white;
+    text-align: center;
+}
+
+.contact p{
+    color: white;
+    text-align: center;
+}
+
+.contact form{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    border: 2px solid white;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.contact form input{
+    background-color: transparent;
+    border: 2px solid white;
+    margin: 10px 0;
+    color: white;
+    font-size: 18px;
+    padding: 15px 10px;
+    border-radius: 15px;
+    outline: 0;
+}
+
+.contact form input::placeholder{
+    color: whitesmoke;
+}
+
+.contact form input[type="submit"]{
+    background-color: #02082c;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #02082c;
+    color: white;
+}
+
+.footer p{
+    text-align: center;
+    font-weight: 700;
+}
